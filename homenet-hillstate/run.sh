@@ -1,5 +1,5 @@
 #!/usr/bin/with-contenv bashio
-repo_path=/repos/yogyui/HomeNetwork
+repo_path=/repos/jaemyeong/HomeNetwork
 
 echo "try to update repository"
 git pull
