@@ -7,5 +7,5 @@ build_from:
 labels:
   org.opencontainers.image.title: "HomeNetwork for Hillstate"
   org.opencontainers.image.description: "RS-485 based homenetwork application for hillstate (hyundai ht)"
-  org.opencontainers.image.source: "https://github.com/YOGYUI/homeassistant-addons"
+  org.opencontainers.image.source: "https://github.com/jaemyeong/homeassistant-addons"
   org.opencontainers.image.licenses: "Apache License 2.0"

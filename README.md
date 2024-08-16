@@ -1,4 +1,4 @@
-# YOGYUI Home Assistant Addons
+# Jaemyeong Jin Home Assistant Addons
 My Home Assistant Addon(s)
 
 HomeNetwork for Hillstate
