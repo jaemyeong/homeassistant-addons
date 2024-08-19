@@ -12,7 +12,7 @@ RUN apk add --update --no-cache \
 # clone repository from GitHub
 RUN mkdir -p /repos/jaemyeong
 RUN git clone https://github.com/jaemyeong/HomeNetwork.git /repos/jaemyeong/HomeNetwork
-WORKDIR /repos/jaemyeong/HomeNetwork/Bestium
+WORKDIR /repos/jaemyeong/HomeNetwork/Hillstate-Gwanggyosan
 RUN git config pull.rebase true
 
 # create & activate python virtual environment, install python requirements
