@@ -3,12 +3,8 @@ version: "0.1.0"
 slug: jaemyeong_homenet_bestium
 description: RS-485 based HomeNetwork for Bestium (Hyundai HT)
 arch:
-  - armhf
-  - armv7
   - aarch64
-  - amd64
-  - i386
-image: jaemyeong/ha-addon-{arch}-homenet-hillstate
+image: jaemyeong/ha-addon-{arch}-homenet-bestium
 init: false
 startup: application
 url: https://github.com/jaemyeong/homeassistant-addons/tree/main/homenet-hillstate
@@ -35,7 +31,7 @@ options:
     port: 1883
     username: username
     password: password
-    client_id: yogyui_hyundai_ht
+    client_id: jaemyeong_hyundai_ht
     tls_enable: false
     tls_ca_certs: /config/ssl/cacert.pem
     tls_certfile: /config/ssl/fullchain.pem
