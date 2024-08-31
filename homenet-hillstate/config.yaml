@@ -117,6 +117,8 @@ schema:
       socketaddr: str
       socketport: int
       check_connection: bool
+      cmd_interval_ms: int(1,)?
+      cmd_retry_count: int(1,)?
   discovery:
     activate: bool
     prefix: str
