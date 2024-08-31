@@ -1,5 +1,5 @@
 name: HomeNetwork for Bestium
-version: "0.1.0"
+version: "0.1.1"
 slug: jaemyeong_homenet_bestium
 description: RS-485 based HomeNetwork for Bestium (Hyundai HT)
 arch:
@@ -7,7 +7,7 @@ arch:
 image: jaemyeong/ha-addon-{arch}-homenet-bestium
 init: false
 startup: application
-url: https://github.com/jaemyeong/homeassistant-addons/tree/main/homenet-hillstate
+url: https://github.com/jaemyeong/homeassistant-addons/tree/main/homenetwork-bestium
 ingress: true
 ingress_port: 7929
 ingress_entry: /
@@ -80,7 +80,7 @@ options:
     frame_rate: 30
     width: 640
     height: 480
-  etc: 
+  etc:
     thermo_len_per_dev: 3
     thermostat_range_min: 18
     thermostat_range_max: 35

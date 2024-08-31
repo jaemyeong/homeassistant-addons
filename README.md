@@ -1,6 +1,5 @@
-# Jaemyeong Jin Home Assistant Addons
-My Home Assistant Addon(s)
+# Bestium Home Assistant Addons
 
-HomeNetwork for Bestium
----
+Bestium Home Assistant Addons
 
+## HomeNetwork for Bestium
