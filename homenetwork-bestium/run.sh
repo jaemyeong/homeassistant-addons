@@ -1,5 +1,5 @@
 #!/usr/bin/with-contenv bashio
-repo_path=/repos/yogyui/HomeNetwork
+repo_path=/repos/jaemyeong/HomeNetwork
 
 echo "try to update repository"
 git pull
@@ -15,7 +15,7 @@ CONFIG_PERIODIC_QUERY_STATE="$(bashio::config 'periodic_query_state')"
 CONFIG_SUBPHONE="$(bashio::config 'subphone')"
 CONFIG_ETC="$(bashio::config 'etc')"
 
-uwsgi --ini ${repo_path}/Hillstate-Gwanggyosan/uwsgi.ini \
+uwsgi --ini ${repo_path}/Bestium/uwsgi.ini \
   --pyargv "--config_file_path=$CONFIG_FILE_PATH \
   --mqtt_broker=$CONFIG_MQTT_BROKER \
   --rs485=$CONFIG_RS485 \

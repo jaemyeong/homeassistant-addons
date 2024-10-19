@@ -1,6 +1,5 @@
-# YOGYUI Home Assistant Addons
-My Home Assistant Addon(s)
+# Bestium Home Assistant Addons
 
-HomeNetwork for Hillstate
----
+Bestium Home Assistant Addons
 
+## HomeNetwork for Bestium

@@ -1,17 +1,13 @@
-name: HomeNetwork for Hillstate
-version: "1.1.6"
-slug: yogyui_homenet_hillstate
-description: RS-485 based HomeNetwork for Hillstate (Hyundai HT)
+name: HomeNetwork for Bestium
+version: "0.1.1"
+slug: jaemyeong_homenet_bestium
+description: RS-485 based HomeNetwork for Bestium (Hyundai HT)
 arch:
-  - armhf
-  - armv7
   - aarch64
-  - amd64
-  - i386
-image: yogyui/ha-addon-{arch}-homenet-hillstate
+image: jaemyeong/ha-addon-{arch}-homenet-bestium
 init: false
 startup: application
-url: https://github.com/YOGYUI/homeassistant-addons/tree/main/homenet-hillstate
+url: https://github.com/jaemyeong/homeassistant-addons/tree/main/homenetwork-bestium
 ingress: true
 ingress_port: 7929
 ingress_entry: /
@@ -22,7 +18,7 @@ uart: true
 usb: true
 gpio: true
 panel_icon: mdi:home-automation
-panel_title: YOGYUI-HILLSTATE
+panel_title: Bestium
 panel_admin: false
 map:
   - addon_config:rw
@@ -35,7 +31,7 @@ options:
     port: 1883
     username: username
     password: password
-    client_id: yogyui_hyundai_ht
+    client_id: jaemyeong_hyundai_ht
     tls_enable: false
     tls_ca_certs: /config/ssl/cacert.pem
     tls_certfile: /config/ssl/fullchain.pem
@@ -84,7 +80,7 @@ options:
     frame_rate: 30
     width: 640
     height: 480
-  etc: 
+  etc:
     thermo_len_per_dev: 3
     thermostat_range_min: 18
     thermostat_range_max: 35
