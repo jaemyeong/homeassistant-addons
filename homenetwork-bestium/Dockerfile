@@ -1,6 +1,6 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
-LABEL maintainer="YOGYUI lee2002w@gmail.com"
+LABEL org.opencontainers.image.authors="jaemyeong@me.com"
 
 # install required packages
 RUN apk add --update --no-cache \
@@ -10,9 +10,9 @@ RUN apk add --update --no-cache \
     python3 python3-dev py3-pip
 
 # clone repository from GitHub
-RUN mkdir -p /repos/yogyui
-RUN git clone https://github.com/YOGYUI/HomeNetwork.git /repos/yogyui/HomeNetwork
-WORKDIR /repos/yogyui/HomeNetwork/Hillstate-Gwanggyosan
+RUN mkdir -p /repos/jaemyeong
+RUN git clone https://github.com/jaemyeong/HomeNetwork.git /repos/jaemyeong/HomeNetwork
+WORKDIR /repos/jaemyeong/HomeNetwork/Bestium
 RUN git config pull.rebase true
 
 # create & activate python virtual environment, install python requirements
